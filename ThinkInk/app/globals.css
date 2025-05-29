@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 142 76% 95%;
+    --foreground: 142 10% 15%;
+
+    --card: 142 70% 98%;
+    --card-foreground: 142 10% 15%;
+
+    --popover: 142 70% 98%;
+    --popover-foreground: 142 10% 15%;
+
+    --primary: 142 70% 30%;
+    --primary-foreground: 142 10% 98%;
+
+    --secondary: 142 30% 90%;
+    --secondary-foreground: 142 10% 20%;
+
+    --muted: 142 20% 90%;
+    --muted-foreground: 142 10% 40%;
+
+    --accent: 32 95% 65%;
+    --accent-foreground: 32 10% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 142 20% 85%;
+    --input: 142 20% 85%;
+    --ring: 142 70% 30%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 142 50% 10%;
+    --foreground: 142 10% 98%;
+
+    --card: 142 50% 15%;
+    --card-foreground: 142 10% 98%;
+
+    --popover: 142 50% 15%;
+    --popover-foreground: 142 10% 98%;
+
+    --primary: 142 70% 50%;
+    --primary-foreground: 142 10% 10%;
+
+    --secondary: 142 30% 20%;
+    --secondary-foreground: 142 10% 98%;
+
+    --muted: 142 20% 20%;
+    --muted-foreground: 142 10% 60%;
+
+    --accent: 32 95% 55%;
+    --accent-foreground: 32 10% 10%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 142 20% 25%;
+    --input: 142 20% 25%;
+    --ring: 142 70% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite;
+}
+
+.pattern-grid {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2322c55e' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.pattern-dots {
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2322c55e' fill-opacity='0.1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.pattern-zigzag {
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%2322c55e' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
