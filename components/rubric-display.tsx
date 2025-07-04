@@ -172,7 +172,7 @@ export default function RubricDisplay({ assignmentText, activeAssignment, markCo
               ) : (
                 <>
                   <Sparkles className="mr-2 h-4 w-4" />
-                  Check My Work { !assignmentText.trim() ? " (No work to check)" : "(k)" }
+                  Check My Work
                 </>
               )}
             </Button>
