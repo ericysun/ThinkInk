@@ -26,11 +26,11 @@ A platform that integrates AI into the classroom to help students and teachers f
 -  **AI/ML:** OpenAI API (GPT-4), custom prompt engineering  
 - **Hosting:** Vercel
 
-To deploy this site yourself, clone repository, add .env file w/ your API key, and you are good to go!
-
 ## Teacher View for Lesson Creation:
 <img width="1416" alt="Screenshot 2025-05-27 at 10 22 40 PM" src="https://github.com/user-attachments/assets/e74fc243-cccb-437b-904d-f13a8893c750" />
 
 ## Student View for Lesson Completion:
 <img width="1419" alt="Screenshot 2025-05-27 at 10 22 48 PM" src="https://github.com/user-attachments/assets/5c4ff5a9-fb67-4490-9fd5-48a51c970506" />
 
+## To Use:
+- To deploy this site yourself, clone the repository, add .env file with your API key, run the site with Live Server, and you are good to go! Multiple people can use the site at once and created lessons and progress are synced.
