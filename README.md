@@ -1,8 +1,7 @@
 # ThinkInk
-<img width="1070" alt="Screenshot 2025-05-28 at 10 10 48 PM" src="https://github.com/user-attachments/assets/596a75f0-910d-4a59-a32d-c0ea2edcb846" />
-
 ## AI EdTech Writing Interface
 A platform that integrates AI into the classroom to help students and teachers foster better learning.
+<img width="1070" alt="Screenshot 2025-05-28 at 10 10 48 PM" src="https://github.com/user-attachments/assets/596a75f0-910d-4a59-a32d-c0ea2edcb846" />
 
 ## Features
 
